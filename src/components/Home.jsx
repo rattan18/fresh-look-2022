@@ -7,7 +7,7 @@ import navStar from "../assets/home-nav-star.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import navOpen from '../assets/nav-open.svg';
 import navClose from '../assets/nav-cross.svg';
-import { HashLink } from "react-router-hash-link";
+
 
 
 const Home = () => {
