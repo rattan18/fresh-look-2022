@@ -1,0 +1,191 @@
+#home {
+  height: 749px;
+  width: 100%;
+  background-color: black;
+  background-image: url("../assets/home-bg.png");
+  mix-blend-mode: overlay;
+  // opacity: 0.9;
+  color: white;
+
+  .show-nav{
+    display: none;
+  }
+
+  .nav-star {
+    position: absolute;
+    top: 92px;
+    left: 420px;
+  }
+
+  .nav-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    position: relative;
+    width: 88%;
+    left: 90px;
+
+    h1 {
+      font: 275 40px "Poppins";
+    }
+
+    > div {
+      display: flex;
+      justify-content: center;
+      margin-top: 27px;
+      p {
+        font: 700 15px "Work sans";
+      }
+    }
+    button{
+      display: none;
+    }
+  }
+}
+
+.navbar{
+  margin-left: 90px;
+  > ul {
+    display: flex;
+
+    li {
+      color: white;
+      list-style: none;
+      margin: 14px 48px;
+      > a {
+        font: 700 18px "Work Sans";
+
+        &:hover {
+          font-weight: 500;
+          cursor: pointer;
+          text-decoration: underline;
+          border: 1px solid white;
+        }
+      }
+    }
+  }
+  button{
+    display: none;
+  }
+}
+
+.sub-menu {
+  margin: 0;
+  li {
+    margin: 6px 0;
+    margin-right: 30px;
+  }
+}
+
+.lower-home {
+  width: 100vh;
+}
+
+.headings {
+  margin-top: 239px;
+  margin-left: 115px;
+
+  h1 {
+    font: 800 135px "Syne";
+  }
+
+  .fresh {
+    position: absolute;
+    top: 258px;
+    left: 200px;
+  }
+
+  .two {
+    position: absolute;
+    bottom: 180px;
+    left: 500px;
+    // mix-blend-mode: multiply;
+    // background-color: #f07e15;
+    // filter: invert(100%);
+    // text-shadow: 1px 1px 15px white;
+    // -webkit-text-stroke:100px;
+    z-index: 10;
+
+    &::target-text{
+      background-color: aliceblue;
+    }
+    // z-index: 10;
+  }
+
+  .look {
+    position: absolute;
+    bottom: 70px;
+    left: 265px;
+  }
+}
+
+.orange-banner {
+  height: 354.3px;
+  width: 993px;
+  background-color: #f07e15;
+  position: absolute;
+  top: 350px;
+  left: 525px;
+  z-index: -100;
+  mix-blend-mode: screen;
+  // transform: scaleX(1.2);
+
+  .man {
+    z-index: 10;
+    width: 432px;
+    height: 655px;
+    object-fit: cover;
+    position: absolute;
+    top: -220px;
+    left: 450px;
+    mix-blend-mode: multiply;
+  }
+
+  .man-star {
+    position: absolute;
+    top: -220px;
+    left: 570px;
+  }
+
+  p {
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    font: 400 14px "Work sans";
+    color: black;
+  }
+
+  span {
+    position: absolute;
+    bottom: 60px;
+    right: 115px;
+    font: 400 14px "Work sans";
+    color: black;
+  }
+}
+
+.footer-star {
+  position: absolute;
+  left: 65%;
+  bottom: 11px;
+}
+.footer-home {
+  border-top: 1px solid white;
+  width: 990px;
+  position: absolute;
+  bottom: -30px;
+  padding: 30px 115px;
+  display: flex;
+  align-items: center;
+
+  .border-items {
+    border: 1px solid white;
+    padding: 2px 0;
+  }
+  a {
+    color: white;
+    font: 400 18px "Work Sans";
+    margin-right: 8px;
+  }
+}

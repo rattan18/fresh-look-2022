@@ -1,0 +1,94 @@
+#contact {
+  width: 100%;
+  height: 520px;
+  background: url("../assets/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: 400 18px "Work Sans";
+  color: rgba(255, 255, 255, 0.5);
+
+  > .upper {
+    width: 100%;
+    height: 260px;
+    padding-top: 82px;
+    padding-left: 103px;
+    padding-right: 266px;
+    display: flex;
+    justify-content: space-between;
+
+    > .paras {
+      width: 337px;
+      height: 60px;
+
+      > .heading-contact {
+        font: 600 26px "Syne";
+      }
+
+      > .para-contact {
+        padding-top: 4px;
+      }
+    }
+  }
+
+  .div-form {
+    height: 430px;
+    width: 558px;
+
+    .form {
+      height: 100%;
+      width: 558px;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        background: none;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 6px 14px;
+        margin-bottom: 35px;
+        color: white;
+        font: 400 18px "Work Sans";
+      }
+
+      button {
+        width: 181px;
+        height: 181px;
+        padding: 55px 59px;
+        border-radius: 50%;
+        background: none;
+        border: 2px #f07e15 solid;
+        color: #f07e15;
+        font: 400 26px "Work Sans";
+        position: relative;
+        top: -30px;
+        left: 560px;
+        z-index: 10;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #f07e15;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .lower {
+    width: 100%;
+    height: 236px;
+    // display: flex;
+    // justify-content: space-between;
+
+    > p {
+      width: 80%;
+      padding-top: 38px;
+      padding-left: 90px;
+      color: white;
+      font: 800 135px "Syne";
+      line-height: 102.6px;
+      transform: scaleX(1.1);
+      transform-origin: 50px;
+    }
+  }
+}
